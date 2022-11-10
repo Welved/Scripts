@@ -21,7 +21,7 @@ sudo deb-get install portmaster
 sudo deb-get install firefox-esr
 sudo deb-get install dropbox
 sudo deb-get install obs-studio
-wget -P ~/Downloads https://github.com/xournalpp/xournalpp/releases/download/v1.1.1/xournalpp-1.1.1-Ubuntu-focal-x86_64.deb
+wget -P ~/Documents https://github.com/xournalpp/xournalpp/releases/download/v1.1.1/xournalpp-1.1.1-Ubuntu-focal-x86_64.deb
 wget -P ~/Documents https://mega.nz/linux/repo/xUbuntu_22.04/amd64/megasync-xUbuntu_22.04_amd64.deb
 wget -P ~/Documents https://download.teamviewer.com/download/linux/teamviewer_amd64.deb
 wget -P ~/Documents https://cdn.akamai.steamstatic.com/client/installer/steam.deb
