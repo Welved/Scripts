@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #This script is intended to provide a way to automatically install and configure a Ubuntu instance on 
-#the 'minimal install option'.
+#the 'minimal install option'. Fully intended for people transitioning to Ubuntu from Windows.
 
 echo "This script will auto configure and download/install apps that a FOB from Windows will need."
 
