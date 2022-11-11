@@ -18,6 +18,7 @@ sudo apt install vlc
 sudo apt install thunderbird
 sudo apt install gimp
 sudo snap install ms-office-electron
+sudo snap install dolphin-emulator
 sudo snap install yuzu
 sudo deb-get install zoom
 sudo deb-get install portmaster
