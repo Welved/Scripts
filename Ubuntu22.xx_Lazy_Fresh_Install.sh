@@ -31,6 +31,7 @@ wget -P ~/Documents https://download.teamviewer.com/download/linux/teamviewer_am
 wget -P ~/Documents https://cdn.akamai.steamstatic.com/client/installer/steam.deb
 wget -P ~/Documents https://github.com/xournalpp/xournalpp/releases/download/v1.1.1/xournalpp-1.1.1-Ubuntu-focal-x86_64.deb
 wget -P ~/Documents https://github.com/keepassxreboot/keepassxc/releases/download/2.7.4/KeePassXC-2.7.4-x86_64.AppImage
+wget -P ~/Documents https://download.oracle.com/java/19/latest/jdk-19_linux-x64_bin.deb
 chmod +x ~/Documents/*.deb
 sleep 1
 sudo apt install apt-transport-https curl
