@@ -5,8 +5,6 @@
 
 echo "This script will auto configure and download/install apps that a FOB from Windows will need."
 
-pactl load-module module-null-sink sink_name=virtmic sink_properties=device.description=Virtual_Microphone_Sink
-pactl load-module module-null-sink sink_name=virtspk sink_properties=device.description=Virtual_Speaker
 sudo apt update && sudo apt upgrade && sudo apt autoremove
 sudo apt remove snapd && sudo apt purge snapd && sudo apt install snapd
 gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize' && gsettings set org.gnome.desktop.peripherals.touchpad "disable-while-typing" false
