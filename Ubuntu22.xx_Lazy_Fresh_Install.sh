@@ -39,8 +39,8 @@ sleep 1
 sudo apt install apt-transport-https curl
 sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
 echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg arch=amd64] https://brave-browser-apt-release.s3.brave.com/ stable main"|sudo tee /etc/apt/sources.list.d/brave-browser-release.list
-echo "sudo apt install ./Downloads/*.deb"
-echo "sudo ./Downloads/*.bundle"
+echo "sudo apt install ./Documents/*.deb"
+echo "sudo ./Documents/*.bundle"
 sudo apt update && sudo apt upgrade && sudo apt install brave-browser
 echo --------- Machine will reboot in 10 seconds. ------------------------
 wait 10
