@@ -32,6 +32,7 @@ wget -P ~/Documents https://github.com/xournalpp/xournalpp/releases/download/v1.
 wget -P ~/Documents https://github.com/keepassxreboot/keepassxc/releases/download/2.7.4/KeePassXC-2.7.4-x86_64.AppImage
 wget -P ~/Documents https://builds.parsecgaming.com/package/parsec-linux.deb
 wget -P ~/Documents https://download.oracle.com/java/19/latest/jdk-19_linux-x64_bin.deb
+wget -P ~/Documents https://customerconnect.vmware.com/akam/13/2b1ced92
 chmod +x ~/Documents/*.deb
 sleep 1
 sudo apt install apt-transport-https curl
