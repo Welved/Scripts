@@ -25,7 +25,7 @@ sudo deb-get install dropbox
 sudo deb-get install obs-studio
 wget -P ~/Documents https://github.com/xournalpp/xournalpp/releases/download/v1.1.1/xournalpp-1.1.1-Ubuntu-focal-x86_64.deb
 wget -P ~/Documents https://mega.nz/linux/repo/xUbuntu_22.04/amd64/megasync-xUbuntu_22.04_amd64.deb
-wget -P ~/Documents https://anydesk.com/en/downloads/thank-you?dv=deb_64
+wget -P ~/Documents https://download.anydesk.com/linux/anydesk_6.2.1-1_amd64.deb
 wget -P ~/Documents https://cdn.akamai.steamstatic.com/client/installer/steam.deb
 wget -P ~/Documents https://github.com/xournalpp/xournalpp/releases/download/v1.1.1/xournalpp-1.1.1-Ubuntu-focal-x86_64.deb
 wget -P ~/Documents https://github.com/keepassxreboot/keepassxc/releases/download/2.7.4/KeePassXC-2.7.4-x86_64.AppImage
