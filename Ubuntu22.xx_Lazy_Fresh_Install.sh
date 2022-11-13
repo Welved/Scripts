@@ -15,6 +15,7 @@ sudo apt install kdenlive
 sudo apt install vlc
 sudo apt install thunderbird
 sudo apt install gimp
+sudo apt install build-essential
 sudo snap install ms-office-electron
 sudo snap install dolphin-emulator
 sudo snap install yuzu
