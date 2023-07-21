@@ -11,14 +11,8 @@ gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize' &&
 sudo apt install curl && curl -sL https://raw.githubusercontent.com/wimpysworld/deb-get/main/deb-get | sudo -E bash -s install deb-get
 sudo apt install gnome-calendar kdenlive vlc thunderbird gimp keepassxc build-essential
 sudo snap install dolphin-emulator yuzu
-wget -P ~/Documents https://mega.nz/linux/repo/xUbuntu_22.04/amd64/megasync-xUbuntu_22.04_amd64.deb
-wget -P ~/Documents https://download.anydesk.com/linux/anydesk_6.2.1-1_amd64.deb
-wget -P ~/Documents https://cdn.akamai.steamstatic.com/client/installer/steam.deb
-wget -P ~/Documents https://github.com/xournalpp/xournalpp/releases/download/v1.1.1/xournalpp-1.1.1-Ubuntu-focal-x86_64.deb
-wget -P ~/Documents https://github.com/keepassxreboot/keepassxc/releases/download/2.7.4/KeePassXC-2.7.4-x86_64.AppImage
-wget -P ~/Documents https://builds.parsecgaming.com/package/parsec-linux.deb
-wget -P ~/Documents https://download.oracle.com/java/19/latest/jdk-19_linux-x64_bin.deb
-wget -P ~/Documents https://download3.vmware.com/software/WKST-PLAYER-1624/VMware-Player-Full-16.2.4-20089737.x86_64.bundle
+#wget -P ~/Documents https://mega.nz/linux/repo/xUbuntu_22.04/amd64/megasync-xUbuntu_22.04_amd64.deb
+
 chmod +x ~/Documents/*.bundle
 chmod +x ~/Documents/*.deb
 sleep 1
