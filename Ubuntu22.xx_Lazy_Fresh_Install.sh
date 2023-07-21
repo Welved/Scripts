@@ -9,22 +9,8 @@ sudo apt update && sudo apt upgrade && sudo apt autoremove
 sudo apt remove snapd && sudo apt purge snapd && sudo apt install snapd
 gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize' && gsettings set org.gnome.desktop.peripherals.touchpad "disable-while-typing" false
 sudo apt install curl && curl -sL https://raw.githubusercontent.com/wimpysworld/deb-get/main/deb-get | sudo -E bash -s install deb-get
-sudo apt install pavucontrol
-sudo apt install gnome-calendar
-sudo apt install kdenlive
-sudo apt install vlc
-sudo apt install thunderbird
-sudo apt install gimp
-sudo apt install keepassxc
-sudo apt install build-essential
-sudo snap install ms-office-electron
-sudo snap install dolphin-emulator
-sudo snap install yuzu
-sudo deb-get install zoom
-sudo deb-get install portmaster
-sudo deb-get install firefox-esr
-sudo deb-get install dropbox
-sudo deb-get install obs-studio
+sudo apt install gnome-calendar kdenlive vlc thunderbird gimp keepassxc build-essential
+sudo snap install dolphin-emulator yuzu
 wget -P ~/Documents https://mega.nz/linux/repo/xUbuntu_22.04/amd64/megasync-xUbuntu_22.04_amd64.deb
 wget -P ~/Documents https://download.anydesk.com/linux/anydesk_6.2.1-1_amd64.deb
 wget -P ~/Documents https://cdn.akamai.steamstatic.com/client/installer/steam.deb
