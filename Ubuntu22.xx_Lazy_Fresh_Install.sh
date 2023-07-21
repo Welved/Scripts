@@ -18,7 +18,4 @@ chmod +x ~/Documents/*.deb
 
 sudo apt install ./Documents/*.deb
 sudo ./Documents/*.bundle
-sudo apt update && sudo apt upgrade && sudo apt install brave-browser
-echo --------- Machine will reboot in 10 seconds. ------------------------
-wait 10
 reboot
